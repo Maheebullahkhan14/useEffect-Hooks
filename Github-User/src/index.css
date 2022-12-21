@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.Card{
+  background-color: rgba(77, 92, 92, 0.795);
+  width: 300px;
+  height: 150px;
+
+  display: flex;
+  
+  padding: 10px;
+  margin: 48px;
+  border-radius: 15px;
+  color: white;
+}
+
+.Card .img{
+  width: 100px;
+  height: 80px;
+  
+}
+
+.Card .img img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  
+}
+
+.Card .Details{
+  margin-left: 25px;
+}
+.Card .Details h5{
+  margin-top: 10px;
+}
+.Card .Details .allDetails{
+  display: flex;
+}
+.Card .Details .allDetails .myspan{
+  display: flex;
+  flex-direction: column;
+  margin-top: 7px;
+  text-align: center;
+}
+.Card .Details .allDetails .myspan span{
+  font-size: 17px;
+  margin: 5px 10px;
+}
+
+#root{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
